@@ -1,5 +1,6 @@
 //Standard Unity/C# functionality
 using UnityEngine;
+using UnityEngine.Android;
 
 //These tell our project to use pieces from the Lightship ARDK
 using Niantic.ARDK.AR;
@@ -17,7 +18,9 @@ public class SceneManager : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        //AskPermissions();
+
         //ARSessionFactory helps create our AR Session. Here, we're telling our 'ARSessionFactory' to listen to when a new ARSession is created, then call an 'OnSessionInitialized' function when we get notified of one being created
         ARSessionFactory.SessionInitialized += OnSessionInitialized;
     }
@@ -62,5 +65,20 @@ public class SceneManager : MonoBehaviour
         rigbod.velocity = new Vector3(0f, 0f, 0f);
         float force = 300.0f;
         rigbod.AddForce(_mainCamera.transform.forward * force);
+    }
+
+    private void AskPermissions()
+    {
+        #if UNITY_ANDROID
+            if (!Permission.HasUserAuthorizedPermission(Permission.Camera))
+            {
+                Permission.RequestUserPermission(Permission.Camera);
+            }
+
+            if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
+            {
+                Permission.RequestUserPermission(Permission.FineLocation);
+            }
+        #endif
     }
 }
