@@ -10,7 +10,7 @@ public class RoomController : MonoBehaviour
 
     private void OnEnable()
     {
-        GameObject.Find("AudioPlayer").GetComponent<AudioPlayer>().scenes.Add(scene);
+       // GameObject.Find("AudioPlayer").GetComponent<AudioPlayer>().scenes.Add(scene);
     }
     // Start is called before the first frame update
     void Start()
