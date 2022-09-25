@@ -12,30 +12,64 @@ public class AudioPlayer : MonoBehaviour
 
     public GameObject placementMesh;
 
-    private void OnTriggerEnter(Collider other)
+    public float rotOffset = 0.0f;
+
+    public GameObject facer;
+    public int sceneSelected = -1;
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag("AudioZone"))
+    //    {
+    //        SwitchScene(other.GetComponent<RoomController>().scene.gameObject);
+
+    //        //activeScene = other.gameObject;
+    //    }
+
+    //}
+
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("AudioZone") )
+    //    {
+    //        //other.GetComponent<RoomController>().scene.SetActive(false);
+    //        //activeScene.GetComponent<RoomController>().scene.SetActive(false);
+    //       // activeScene = null;
+    //        TurnOffScenes();
+    //    }
+
+    //}
+    public void Update()
     {
-        if (other.CompareTag("AudioZone"))
+        facer.transform.LookAt(Camera.main.transform.position);
+        float rot = facer.transform.localEulerAngles.y;
+        if(rot >0 && rot < 120)
         {
-            SwitchScene(other.GetComponent<RoomController>().scene.gameObject);
-           
-            //activeScene = other.gameObject;
+            SetScene(0);
+            
         }
-      
+        if (rot > 120 && rot < 240)
+        {
+            SetScene(1);
+        }
+        if (rot > 240 && rot < 360)
+        {
+            SetScene(2);
+        }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void SetScene(int i)
     {
-        if (other.CompareTag("AudioZone") )
-        {
-            //other.GetComponent<RoomController>().scene.SetActive(false);
-            //activeScene.GetComponent<RoomController>().scene.SetActive(false);
-           // activeScene = null;
-            TurnOffScenes();
-        }
-      
+        TurnOffScenes();
+        scenes[i].SetActive(true);
+        sceneSelected = i;
+
     }
-
-
+    public void AdjustRotOffset()
+    {
+        rotOffset += 10.0f;
+ 
+    }
     // Start is called before the first frame update
     void Start()
     {

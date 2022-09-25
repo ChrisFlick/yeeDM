@@ -20,7 +20,7 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
      * These sets of variables are used either to display content on the screen,
      * or for accessing ARDK features across methods.
      */
-
+    public bool hasBeenPlaced = false;
     public Camera _camera; // the ARDK's AR camera instead of the default Unity camera
     public GameObject _objectPrefab; // the prefab we will be spawning on screen
     public Text _statusLog; // updates the status log for Wayspot Anchors on screen
@@ -131,15 +131,22 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
     // Process the touch to see if it falls on a horizontal plane
     private void OnTouchScreen(Touch touch)
     {
+        if (!hasBeenPlaced)
+        {
+
+        
          var currentFrame = _arSession.CurrentFrame;
          if (currentFrame == null) return;
          var hitTestResults = currentFrame.HitTest(_camera.pixelWidth, _camera.pixelHeight, touch.position,
              ARHitTestResultType.EstimatedHorizontalPlane);
          if (hitTestResults.Count <= 0) return;
          var position = hitTestResults[0].WorldTransform.ToPosition();
-         var rotation = Quaternion.Euler(new Vector3(0, UnityEngine.Random.Range(0, 360)));
+        var rotation = Quaternion.Euler(new Vector3(0, 0, 0));// transform.LookAt(.transform.position + Camera.main.transform.forward, 0);
          Matrix4x4 poseData = Matrix4x4.TRS(position, rotation, _objectPrefab.transform.localScale);
          PlaceAnchor(poseData);
+            hasBeenPlaced = true;
+        }
+
     }
 
     // We only want to interact with anchors when we are fully localized with VPS
