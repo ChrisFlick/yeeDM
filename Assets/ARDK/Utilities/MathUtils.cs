@@ -554,19 +554,20 @@ namespace Niantic.ARDK.Utilities
     internal static ScreenOrientation CalculateScreenOrientation()
     {
 #if UNITY_EDITOR
-  #if ARDK_TEST
+#if ARDK_TEST
         return Screen.width > Screen.height
             ? ScreenOrientation.LandscapeLeft
             : ScreenOrientation.Portrait;
-  #else
-        return _MockCameraConfiguration.CorrectedScreenWidth > _MockCameraConfiguration.CorrectedScreenHeight
-          ? ScreenOrientation.LandscapeLeft
-          : ScreenOrientation.Portrait;
-  #endif
+#else
+            // return _MockCameraConfiguration.CorrectedScreenWidth > _MockCameraConfiguration.CorrectedScreenHeight
+            //  ? ScreenOrientation.LandscapeLeft
+            //  : ScreenOrientation.Portrait;
+            return ScreenOrientation.Portrait;
+#endif
 #else
       return Screen.orientation;
 #endif
-    }
+        }
 
     /// Transforms a viewport coordinate to world space.
     /// @param viewPosition Coordinate to transform.
