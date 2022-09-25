@@ -30,11 +30,17 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
     private IARSession _arSession; // the AR session started by ARDK
     private WayspotAnchorService _wayspotAnchorService; // controls VPS features used
 
+    private bool _isWayspotAnchorPlaced;
+
     /* 
      * Unity Event Lifecycle Functions
      * Learn more: https://docs.unity3d.com/Manual/ExecutionOrder.html
      */
 
+    private void Awake() {
+        _isWayspotAnchorPlaced = false;
+    }
+    
     // When our app is enabled, register the OnSessionInitiliazed method to
     // ARDK's SessionInialized event handler
     private void OnEnable()
@@ -85,6 +91,8 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
          var rotation = poseData.ToRotation();
          CreateWayspotAnchorGameObject(anchors[0], position, rotation);
          _statusLog.text = "Anchor placed.";
+
+         _isWayspotAnchorPlaced = true;
     }
 
     // Create and attach the game object prefab to the wayspot anchor
@@ -131,6 +139,8 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
     // Process the touch to see if it falls on a horizontal plane
     private void OnTouchScreen(Touch touch)
     {
+        if (_isWayspotAnchorPlaced) return;
+        
          var currentFrame = _arSession.CurrentFrame;
          if (currentFrame == null) return;
          var hitTestResults = currentFrame.HitTest(_camera.pixelWidth, _camera.pixelHeight, touch.position,
