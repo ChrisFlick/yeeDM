@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e818d7086440451e889be0511048aa6, type: 3}
   m_Name: ArdkAuthConfig
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   _apiKey: oZuiOeM9k5ZhTYxWqagR
+=======
+  _apiKey: 4QyxutlXxdAACPElMqDV
+>>>>>>> main
