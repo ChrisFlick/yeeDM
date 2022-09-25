@@ -11547,7 +11547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4709915800059108787
 Transform:
   m_ObjectHideFlags: 0
@@ -12227,7 +12227,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344b7376b28e84b89ac794a034ac343c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  facer: {fileID: 7653597015224413026}
   audioPlayer: {fileID: 0}
+  clip: {fileID: 0}
+  activeScene: {fileID: 0}
+  scenes:
+  - {fileID: 4709915800059108786}
+  - {fileID: 2636877515401146021}
+  - {fileID: 8856764010585697459}
+  placementMesh: {fileID: 0}
+  rotOffset: 0
+  sceneSelected: -1
 --- !u!1 &4722866147485227674
 GameObject:
   m_ObjectHideFlags: 0
@@ -13293,7 +13303,7 @@ GameObject:
   - component: {fileID: 3811158849819786827}
   - component: {fileID: 3893963358799291476}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: facer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

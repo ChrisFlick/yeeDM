@@ -145,6 +145,7 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
          Matrix4x4 poseData = Matrix4x4.TRS(position, rotation, _objectPrefab.transform.localScale);
          PlaceAnchor(poseData);
             hasBeenPlaced = true;
+
         }
 
     }

@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &419731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3378742778289678343, guid: e91d6d15f11cc4ad29bb1a41ae9aa381,
+    type: 3}
+  m_PrefabInstance: {fileID: 1790347469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &25641110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1573,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1790347469}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1790347481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80198c6deee0a4c5c9096accbcac4119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _manageUsingUnityLifecycle: 1
+  _camera: {fileID: 1790347472}
+  _keyFrameFrequency: 20
+  _interpolation: 2
+  _interpolationPreference: 0.9
+  _occlusionMode: 3
+  _textureFilterMode: 0
 --- !u!1 &1844361140
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,7 +1889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2037540228
 Transform:
   m_ObjectHideFlags: 0
@@ -1892,11 +1917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a9c733037f3e4b91ae2fc2b5b9ceac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  activeScene: {fileID: 0}
-  scenes: []
   placementMesh: {fileID: 0}
   rotOffset: 0
+  worldAnchorPoint: {fileID: 0}
 --- !u!54 &2037540230
 Rigidbody:
   m_ObjectHideFlags: 0
