@@ -120,10 +120,16 @@ struct Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B;
 struct ArdkEventHandler_1_t48D864C925093D0B4B0D56BC917E641D8DA4D8F1;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<System.Object>>
 struct ArdkEventHandler_1_tA6FC79564C385FD5C2EC944DDFDE32B230E61CE9;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>
+struct ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkSpawner/SpawnMessage>>
 struct ArdkEventHandler_1_t34B2F7F3FEDA1C876656E0F85E35E771C98D36D3;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>
+struct ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Object>>
 struct ArdkEventHandler_1_t6080F89F0601BA63369CA6942851C4EDE4763ACD;
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>>
+struct ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Utilities.Marker.ARFrameMarkerScannerGotResultArgs>
 struct ArdkEventHandler_1_tBE9ECBE6F8F797CC73551D93771D3541CF1B3FCC;
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Utilities.Marker.ARFrameMarkerScannerReadyArgs>
@@ -288,8 +294,6 @@ struct ArrayOfUnsealedSerializer_1_t6F870A9377A69383A4C7D12E8404036643E6E637;
 struct ArrayOfUnsealedSerializer_1_t091A7671491EC2CB269EB48B0141E3C438F86AD8;
 // Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32>
 struct ArrayOfUnsealedSerializer_1_t853DAED35C9DEEDDE2358C2932E698E5F9E991E9;
-// Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32Enum>
-struct ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31;
 // Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.BaseItemSerializer`1<System.Boolean>
 struct BaseItemSerializer_1_tFFE5D659B19957CB13EF309488BE88167A9D47DB;
 // Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.BaseItemSerializer`1<System.UInt32>
@@ -597,10 +601,13 @@ IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2
 IL2CPP_EXTERN_C RuntimeClass* MeshObjectsClearedArgs_t8374E11D0CB32C6B242AC3FCADE046B49C97B6C9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MeshObjectsUpdatedArgs_tA4952BD2A9909212EBD827C0BB4A5474637C65DE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MessageReceivedEventArgs_1_t272A0CAE562B190A0E34ECA5BD79BD42BC7A41C1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MessageReceivedEventArgs_1_tA0A8BA7876402A25BBB69A914CDAD4B69F18B6FF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MessageReceivedEventArgs_1_tB1D154874CE4A64C5156EF370F6AA398A3CBB1C7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkObjectLifecycleArgs_t46757AEA28B206D281AA3AE81DC2C29F30AAD4E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NetworkedFieldValueChangedArgs_1_t38E7F4EF04B2C6A9659D0F8FBF5F5AFDC2F37761_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PeerAddedArgs_t1D6549A3DBAF0BBD1AF4D379F9F41B564312BF43_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PeerDataReceivedArgs_tF80148A30A40606F3EAF1160FD2759426829B514_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PeerPoseReceivedArgs_t3EFA40B68DEFDEABBD5132C9AC75A98E0B6AC083_il2cpp_TypeInfo_var;
@@ -683,7 +690,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_m
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_m48F14B77E7B20FF58C86712BA649229E68D68C26_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_m4B9E48BB924CAFFCEEE79555E5AC617C2EE7312C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_m9461A9B2095BE7BA00DF23C883B9B74B2C003142_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_m9EFC539E2C09A35CC8D4EAAB6CBF56EB7633D63A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_mB417A6A773E800AA80B65B9422FCC3AC5681F91D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_mD5F9C6BDFA7593F804C51714475568A3A80410EC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1_DoDeserialize_mEB4E7D2B1A7470A262A53E89D4DCEE08D9A2981C_RuntimeMethod_var;
@@ -697,7 +703,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1__cctor_mBA12DE3
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1__cctor_mC483E833F6EA131ECA4C1C3F60CDB23C47AC04B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1__cctor_mD433AE495C9468631A69C670C8FFC5D25E5608CB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1__cctor_mD9A03CEFFA7655845B198199ECA943E0E4F99D7D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1__cctor_mDD44CCFEA8C8BC26D9D05682E45A7A2BA9791B37_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ArrayOfUnsealedSerializer_1__cctor_mFA6CEF0E70BB7F6FE230600A768E771136D3B1E6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisStylePropertyId_tA3B8A5213F5BA43F9C5443B27B165D744713BE69_m9BF76492ED8683330AA277A063C0B9A48E905880_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisVisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_m1FD8B8EC7C3147920D03A8841C46D35C0C4E9F86_RuntimeMethod_var;
@@ -2052,17 +2057,6 @@ struct ArrayOfUnsealedSerializer_1_t853DAED35C9DEEDDE2358C2932E698E5F9E991E9_Sta
 	ArrayOfUnsealedSerializer_1_t853DAED35C9DEEDDE2358C2932E698E5F9E991E9* ___Instance_1;
 };
 
-// Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32Enum>
-struct ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31  : public BaseItemSerializer_1_t69063837F7F737D159657B51E702736836CDB338
-{
-};
-
-struct ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31_StaticFields
-{
-	// Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<T> Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1::Instance
-	ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31* ___Instance_1;
-};
-
 // Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<System.Object>
 struct MessageReceivedEventArgs_1_t272A0CAE562B190A0E34ECA5BD79BD42BC7A41C1 
 {
@@ -2092,6 +2086,15 @@ struct NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF
 	int32_t ___m_Length_1;
 	// Unity.Collections.Allocator Unity.Collections.NativeArray`1::m_AllocatorLabel
 	int32_t ___m_AllocatorLabel_2;
+};
+
+// Niantic.ARDK.Utilities.Optional`1<System.Byte>
+struct Optional_1_tC255D1744BF30D3C915A6CAB20422C93DDE50291 
+{
+	// T Niantic.ARDK.Utilities.Optional`1::_value
+	uint8_t ____value_0;
+	// System.Boolean Niantic.ARDK.Utilities.Optional`1::_hasValue
+	bool ____hasValue_1;
 };
 
 // Niantic.ARDK.Utilities.Optional`1<System.Object>
@@ -3536,6 +3539,24 @@ struct MessageReceivedEventArgs_1_tA0A8BA7876402A25BBB69A914CDAD4B69F18B6FF
 	NetworkId_tA940386AFE400DEF120A9E86B180CD3A2C01FAD3 ___Message_1;
 };
 
+// Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>
+struct MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B 
+{
+	// Niantic.ARDK.Networking.IPeer Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1::Sender
+	RuntimeObject* ___Sender_0;
+	// TMessage Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1::Message
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Message_1;
+};
+
+// Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>
+struct NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 
+{
+	// Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedMode Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1::Mode
+	int32_t ___Mode_0;
+	// Niantic.ARDK.Utilities.Optional`1<TValue> Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1::Value
+	Optional_1_tC255D1744BF30D3C915A6CAB20422C93DDE50291 ___Value_1;
+};
+
 // Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Object>
 struct NetworkedFieldValueChangedArgs_1_t38E7F4EF04B2C6A9659D0F8FBF5F5AFDC2F37761 
 {
@@ -3543,6 +3564,15 @@ struct NetworkedFieldValueChangedArgs_1_t38E7F4EF04B2C6A9659D0F8FBF5F5AFDC2F3776
 	int32_t ___Mode_0;
 	// Niantic.ARDK.Utilities.Optional`1<TValue> Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1::Value
 	Optional_1_t293C020EDCBB9C668F0FA48640D3D5A46B1E5C80 ___Value_1;
+};
+
+// Niantic.ARDK.Utilities.Optional`1<UnityEngine.Vector3>
+struct Optional_1_tC78F4E5168384127FB3A6C0EF46E275DCFE545BA 
+{
+	// T Niantic.ARDK.Utilities.Optional`1::_value
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____value_0;
+	// System.Boolean Niantic.ARDK.Utilities.Optional`1::_hasValue
+	bool ____hasValue_1;
 };
 
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.FontDefinition>
@@ -4200,6 +4230,15 @@ struct MessageReceivedEventArgs_1_tB1D154874CE4A64C5156EF370F6AA398A3CBB1C7
 	SpawnMessage_tC26F98EA585B6D0609BAF72C611A053F3F46B3C1 ___Message_1;
 };
 
+// Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>
+struct NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA 
+{
+	// Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedMode Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1::Mode
+	int32_t ___Mode_0;
+	// Niantic.ARDK.Utilities.Optional`1<TValue> Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1::Value
+	Optional_1_tC78F4E5168384127FB3A6C0EF46E275DCFE545BA ___Value_1;
+};
+
 // UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/StyleData<UnityEngine.UIElements.Rotate>
 struct StyleData_tF4F082E86CEF208DCF726577323A81818B156F1C 
 {
@@ -4454,13 +4493,28 @@ struct ArdkEventHandler_1_tA6FC79564C385FD5C2EC944DDFDE32B230E61CE9  : public Mu
 {
 };
 
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>
+struct ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924  : public MulticastDelegate_t
+{
+};
+
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<Niantic.ARDK.Networking.HLAPI.Object.Unity.NetworkSpawner/SpawnMessage>>
 struct ArdkEventHandler_1_t34B2F7F3FEDA1C876656E0F85E35E771C98D36D3  : public MulticastDelegate_t
 {
 };
 
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>
+struct ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4  : public MulticastDelegate_t
+{
+};
+
 // Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Object>>
 struct ArdkEventHandler_1_t6080F89F0601BA63369CA6942851C4EDE4763ACD  : public MulticastDelegate_t
+{
+};
+
+// Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>>
+struct ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0  : public MulticastDelegate_t
 {
 };
 
@@ -14158,6 +14212,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_EndInvoke_mA01411A060
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+void ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_Multicast(ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* currentDelegate = reinterpret_cast<ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_OpenInst(ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___args0, method);
+}
+void ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_OpenStatic(ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___args0, method);
+}
+void ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_OpenStaticInvoker(ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B >::Invoke(__this->___method_ptr_0, method, NULL, ___args0);
+}
+void ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_ClosedStaticInvoker(ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___args0);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_mA62807BB6FCEE48DB63AEAA9168C1A47384F7A47_gshared (ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_Multicast;
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>::Invoke(TArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_Invoke_mDDB11640F6E6EEB9B8A5D7B8DB4C4DE45E47BA63_gshared (ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>::BeginInvoke(TArgs,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArdkEventHandler_1_BeginInvoke_m02A1EF72452483ADF38CE2F3E6F567B2C23B8863_gshared (ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B ___args0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(MessageReceivedEventArgs_1_t446C2D8C87768962913401F0EBB44A154922C57B_il2cpp_TypeInfo_var, &___args0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.MessageReceivedEventArgs`1<UnityEngine.Vector3>>::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_EndInvoke_m0CFCDA837A94D03F31B92CDD01016D874350E50B_gshared (ArdkEventHandler_1_t9956833E045A0EE05CA493B3305E0F880EC50924* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 void ArdkEventHandler_1_Invoke_m51A1A9741C7C12335CEAE8A8137A59AD83ED2A26_Multicast(ArdkEventHandler_1_t34B2F7F3FEDA1C876656E0F85E35E771C98D36D3* __this, MessageReceivedEventArgs_1_tB1D154874CE4A64C5156EF370F6AA398A3CBB1C7 ___args0, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
@@ -14254,6 +14404,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_EndInvoke_m6FFC26F66C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+void ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_Multicast(ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* currentDelegate = reinterpret_cast<ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_OpenInst(ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___args0, method);
+}
+void ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_OpenStatic(ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___args0, method);
+}
+void ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_OpenStaticInvoker(ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 >::Invoke(__this->___method_ptr_0, method, NULL, ___args0);
+}
+void ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_ClosedStaticInvoker(ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___args0);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_m4815B0A64B80E1DC00D596D81A969CF96F57B6C1_gshared (ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_Multicast;
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>::Invoke(TArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_Invoke_m52CAA811D8F112434F3BDD9338FC222573318E95_gshared (ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>::BeginInvoke(TArgs,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArdkEventHandler_1_BeginInvoke_mCEDBEEB7EFCBAFA59194AEF7810DAEB738B6D96B_gshared (ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2 ___args0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(NetworkedFieldValueChangedArgs_1_t93C825FF960B11C40E494E2C43C9DFF85117C4C2_il2cpp_TypeInfo_var, &___args0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Byte>>::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_EndInvoke_mD95B40D9B9E5C4BCD57B8D6C01FE743F965128E3_gshared (ArdkEventHandler_1_tAC31E0481C72AAAC8504296A997FB0994085E4D4* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 void ArdkEventHandler_1_Invoke_m8152A537C5420DF4BA7C657B0DA12A417CD47257_Multicast(ArdkEventHandler_1_t6080F89F0601BA63369CA6942851C4EDE4763ACD* __this, NetworkedFieldValueChangedArgs_1_t38E7F4EF04B2C6A9659D0F8FBF5F5AFDC2F37761 ___args0, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
@@ -14339,6 +14585,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArdkEventHandler_1_BeginInvoke
 }
 // System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<System.Object>>::EndInvoke(System.IAsyncResult)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_EndInvoke_m8AFD399C4B0F5791EF4F6CEDE36A18A8F438BAEC_gshared (ArdkEventHandler_1_t6080F89F0601BA63369CA6942851C4EDE4763ACD* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+void ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_Multicast(ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates_13->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* currentDelegate = reinterpret_cast<ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA, const RuntimeMethod*);
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+	}
+}
+void ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_OpenInst(ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___args0, method);
+}
+void ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_OpenStatic(ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, const RuntimeMethod* method)
+{
+	typedef void (*FunctionPointerType) (NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA, const RuntimeMethod*);
+	((FunctionPointerType)__this->___method_ptr_0)(___args0, method);
+}
+void ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_OpenStaticInvoker(ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker1< NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA >::Invoke(__this->___method_ptr_0, method, NULL, ___args0);
+}
+void ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_ClosedStaticInvoker(ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, const RuntimeMethod* method)
+{
+	InvokerActionInvoker2< RuntimeObject*, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___args0);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1__ctor_mB7D62963043248DF0228BED889F8376C3ECBA12F_gshared (ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+{
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
+	__this->___method_3 = ___method1;
+	__this->___m_target_2 = ___object0;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_code_6 = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___method1))
+	{
+		bool isOpen = parameterCount == 1;
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_OpenStaticInvoker;
+			else
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_ClosedStaticInvoker;
+		else
+			if (isOpen)
+				__this->___invoke_impl_1 = (intptr_t)&ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_OpenStatic;
+			else
+				{
+					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+				}
+	}
+	else
+	{
+		if (___object0 == NULL)
+			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
+	}
+	__this->___extra_arg_5 = (intptr_t)&ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_Multicast;
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>>::Invoke(TArgs)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_Invoke_mBE4D7D8F69338FCEFB843287E4AF69BA587C5A72_gshared (ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, const RuntimeMethod* method) 
+{
+	typedef void (*FunctionPointerType) (RuntimeObject*, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA, const RuntimeMethod*);
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___args0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+}
+// System.IAsyncResult Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>>::BeginInvoke(TArgs,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ArdkEventHandler_1_BeginInvoke_m6C22B416D91ED8FAD516CF88A9F15147F71D3A6F_gshared (ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA ___args0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(NetworkedFieldValueChangedArgs_1_t3360025B52D56391630FDD27C174B6F5C39388EA_il2cpp_TypeInfo_var, &___args0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void Niantic.ARDK.Utilities.ArdkEventHandler`1<Niantic.ARDK.Networking.HLAPI.Object.NetworkedFieldValueChangedArgs`1<UnityEngine.Vector3>>::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArdkEventHandler_1_EndInvoke_m67CECFA45B219BAB1AAE985060C78A1E24FD165C_gshared (ArdkEventHandler_1_t331BCCE9C29E859A4BA82594DCF566B2BF145EA0* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 }
@@ -34217,246 +34559,6 @@ IL_0049:
 	{
 		// return result;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_19 = V_2;
-		return L_19;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32Enum>::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayOfUnsealedSerializer_1__cctor_mDD44CCFEA8C8BC26D9D05682E45A7A2BA9791B37_gshared (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public static readonly ArrayOfUnsealedSerializer<T> Instance =
-		//   new ArrayOfUnsealedSerializer<T>();
-		ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31* L_0 = (ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0));
-		NullCheck(L_0);
-		((  void (*) (ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		((ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Instance_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___Instance_1), (void*)L_0);
-		// if (typeof(T).IsSealed)
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 4)) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_2;
-		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
-		NullCheck(L_2);
-		bool L_3;
-		L_3 = Type_get_IsSealed_m6B652265DCEF64250FD2A173C50BD889467A58E4(L_2, NULL);
-		if (!L_3)
-		{
-			goto IL_0026;
-		}
-	}
-	{
-		// throw new Exception(_errorMessageUnsealedTypesOnly);
-		Exception_t* L_4 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		NullCheck(L_4);
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2CD679BB839B646BEE287192CCB2279D53EE5F94)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArrayOfUnsealedSerializer_1__cctor_mDD44CCFEA8C8BC26D9D05682E45A7A2BA9791B37_RuntimeMethod_var)));
-	}
-
-IL_0026:
-	{
-		// }
-		return;
-	}
-}
-// System.Void Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32Enum>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayOfUnsealedSerializer_1__ctor_mFA46972CE2F864692CCF20EDE6134564778B1670_gshared (ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31* __this, const RuntimeMethod* method) 
-{
-	{
-		// private ArrayOfUnsealedSerializer()
-		((  void (*) (BaseItemSerializer_1_t69063837F7F737D159657B51E702736836CDB338*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))((BaseItemSerializer_1_t69063837F7F737D159657B51E702736836CDB338*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
-		// }
-		return;
-	}
-}
-// System.Void Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32Enum>::DoSerialize(Niantic.ARDK.Utilities.BinarySerialization.BinarySerializer,T[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayOfUnsealedSerializer_1_DoSerialize_m880A89F9A304B0E71D0B09E5FC704EF5E3F49202_gshared (ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31* __this, BinarySerializer_t5C1A122A248E9CA04C105DB5504905E4B72A53E4* ___serializer0, Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ___array1, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseItemSerializer_1_Serialize_m1435871BAB04AD5811571547596FA473F332CA5F_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BinarySerializerOrDeserializer_GetContext_TisArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF_mB8A6817EFA1395B8DB83D2397270A14FA00014A6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	int32_t V_0 = 0;
-	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* V_1 = NULL;
-	int32_t V_2 = 0;
-	int32_t V_3 = 0;
-	{
-		// int length = array.Length;
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_0 = ___array1;
-		NullCheck(L_0);
-		V_0 = ((int32_t)(((RuntimeArray*)L_0)->max_length));
-		// var arrayLengthLimiter = serializer.GetContext<ArrayLengthLimiter>();
-		BinarySerializer_t5C1A122A248E9CA04C105DB5504905E4B72A53E4* L_1 = ___serializer0;
-		NullCheck((BinarySerializerOrDeserializer_t5F6BEAD0DE782725DFC40A46B18AABC8EAA379A7*)L_1);
-		ArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF* L_2;
-		L_2 = BinarySerializerOrDeserializer_GetContext_TisArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF_mB8A6817EFA1395B8DB83D2397270A14FA00014A6((BinarySerializerOrDeserializer_t5F6BEAD0DE782725DFC40A46B18AABC8EAA379A7*)L_1, BinarySerializerOrDeserializer_GetContext_TisArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF_mB8A6817EFA1395B8DB83D2397270A14FA00014A6_RuntimeMethod_var);
-		// arrayLengthLimiter.ReserveOrThrow(length);
-		int32_t L_3 = V_0;
-		NullCheck(L_2);
-		ArrayLengthLimiter_ReserveOrThrow_m3DB727C44FF2EFCF6402EDFD0F55AE7284195855(L_2, L_3, NULL);
-		// CompressedUInt32Serializer.Instance.Serialize(serializer, (UInt32)length);
-		il2cpp_codegen_runtime_class_init_inline(CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_il2cpp_TypeInfo_var);
-		CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539* L_4 = ((CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_StaticFields*)il2cpp_codegen_static_fields_for(CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_il2cpp_TypeInfo_var))->___Instance_1;
-		BinarySerializer_t5C1A122A248E9CA04C105DB5504905E4B72A53E4* L_5 = ___serializer0;
-		int32_t L_6 = V_0;
-		NullCheck((BaseItemSerializer_1_t48FE339E78016691A920111A67B300250F119A30*)L_4);
-		BaseItemSerializer_1_Serialize_m1435871BAB04AD5811571547596FA473F332CA5F((BaseItemSerializer_1_t48FE339E78016691A920111A67B300250F119A30*)L_4, L_5, (uint32_t)L_6, BaseItemSerializer_1_Serialize_m1435871BAB04AD5811571547596FA473F332CA5F_RuntimeMethod_var);
-		// foreach (T item in array)
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_7 = ___array1;
-		V_1 = L_7;
-		V_2 = 0;
-		goto IL_003a;
-	}
-
-IL_0022:
-	{
-		// foreach (T item in array)
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_8 = V_1;
-		int32_t L_9 = V_2;
-		NullCheck(L_8);
-		int32_t L_10 = L_9;
-		int32_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
-		V_3 = L_11;
-		// serializer.Serialize(item);
-		BinarySerializer_t5C1A122A248E9CA04C105DB5504905E4B72A53E4* L_12 = ___serializer0;
-		int32_t L_13 = V_3;
-		int32_t L_14 = L_13;
-		RuntimeObject* L_15 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 6), &L_14);
-		NullCheck(L_12);
-		BinarySerializer_Serialize_m72BE3A3553799FBC36EA7FA7D810CAEB74EB7886(L_12, L_15, NULL);
-		int32_t L_16 = V_2;
-		V_2 = ((int32_t)il2cpp_codegen_add(L_16, 1));
-	}
-
-IL_003a:
-	{
-		// foreach (T item in array)
-		int32_t L_17 = V_2;
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_18 = V_1;
-		NullCheck(L_18);
-		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		// }
-		return;
-	}
-}
-// T[] Niantic.ARDK.Utilities.BinarySerialization.ItemSerializers.ArrayOfUnsealedSerializer`1<System.Int32Enum>::DoDeserialize(Niantic.ARDK.Utilities.BinarySerialization.BinaryDeserializer)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* ArrayOfUnsealedSerializer_1_DoDeserialize_m9EFC539E2C09A35CC8D4EAAB6CBF56EB7633D63A_gshared (ArrayOfUnsealedSerializer_1_t69FA76B907CE983C85A54C56C7C1456432C74E31* __this, BinaryDeserializer_t24675039602523794BE4E4ADFFFC26F66145F0C1* ___deserializer0, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArrayOfUnsealedSerializer_1_DoDeserialize_m9EFC539E2C09A35CC8D4EAAB6CBF56EB7633D63A_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseItemSerializer_1_Deserialize_m0FC109C2AE146036B6F253F9A58982AEDAA3AF10_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BinarySerializerOrDeserializer_GetContext_TisArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF_mB8A6817EFA1395B8DB83D2397270A14FA00014A6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	uint32_t V_0 = 0;
-	int32_t V_1 = 0;
-	Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* V_2 = NULL;
-	int32_t V_3 = 0;
-	int32_t V_4 = 0;
-	{
-		// UInt32 unsignedLength = CompressedUInt32Serializer.Instance.Deserialize(deserializer);
-		il2cpp_codegen_runtime_class_init_inline(CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_il2cpp_TypeInfo_var);
-		CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539* L_0 = ((CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_StaticFields*)il2cpp_codegen_static_fields_for(CompressedUInt32Serializer_tDEC1DEE48AAA289CBECD3AAC8816F9EA146EB539_il2cpp_TypeInfo_var))->___Instance_1;
-		BinaryDeserializer_t24675039602523794BE4E4ADFFFC26F66145F0C1* L_1 = ___deserializer0;
-		NullCheck((BaseItemSerializer_1_t48FE339E78016691A920111A67B300250F119A30*)L_0);
-		uint32_t L_2;
-		L_2 = BaseItemSerializer_1_Deserialize_m0FC109C2AE146036B6F253F9A58982AEDAA3AF10((BaseItemSerializer_1_t48FE339E78016691A920111A67B300250F119A30*)L_0, L_1, BaseItemSerializer_1_Deserialize_m0FC109C2AE146036B6F253F9A58982AEDAA3AF10_RuntimeMethod_var);
-		V_0 = L_2;
-		// if (unsignedLength == 0)
-		uint32_t L_3 = V_0;
-		if (L_3)
-		{
-			goto IL_0015;
-		}
-	}
-	{
-		// return EmptyArray<T>.Instance;
-		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_4 = ((EmptyArray_1_t184EB5A8CB0072A0C384670813B4D10412DEADD2_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 7)))->___Instance_0;
-		return L_4;
-	}
-
-IL_0015:
-	{
-		// Int32 length = checked((Int32)unsignedLength);
-		uint32_t L_5 = V_0;
-		if ((uint64_t)(L_5) > 2147483647LL) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), ArrayOfUnsealedSerializer_1_DoDeserialize_m9EFC539E2C09A35CC8D4EAAB6CBF56EB7633D63A_RuntimeMethod_var);
-		V_1 = ((int32_t)L_5);
-		// var arrayLengthLimiter = deserializer.GetContext<ArrayLengthLimiter>();
-		BinaryDeserializer_t24675039602523794BE4E4ADFFFC26F66145F0C1* L_6 = ___deserializer0;
-		NullCheck((BinarySerializerOrDeserializer_t5F6BEAD0DE782725DFC40A46B18AABC8EAA379A7*)L_6);
-		ArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF* L_7;
-		L_7 = BinarySerializerOrDeserializer_GetContext_TisArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF_mB8A6817EFA1395B8DB83D2397270A14FA00014A6((BinarySerializerOrDeserializer_t5F6BEAD0DE782725DFC40A46B18AABC8EAA379A7*)L_6, BinarySerializerOrDeserializer_GetContext_TisArrayLengthLimiter_t86FDE2EBC6BB260EF565805C27213643B3EA3BDF_mB8A6817EFA1395B8DB83D2397270A14FA00014A6_RuntimeMethod_var);
-		// arrayLengthLimiter.ReserveOrThrow(length);
-		int32_t L_8 = V_1;
-		NullCheck(L_7);
-		ArrayLengthLimiter_ReserveOrThrow_m3DB727C44FF2EFCF6402EDFD0F55AE7284195855(L_7, L_8, NULL);
-		// T[] result = new T[length];
-		int32_t L_9 = V_1;
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_10 = (Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F*)(Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F*)SZArrayNew(il2cpp_rgctx_data(method->klass->rgctx_data, 8), (uint32_t)L_9);
-		V_2 = L_10;
-		// for (int i = 0; i < length; i++)
-		V_3 = 0;
-		goto IL_0049;
-	}
-
-IL_002f:
-	{
-		// T item = (T)deserializer.Deserialize();
-		BinaryDeserializer_t24675039602523794BE4E4ADFFFC26F66145F0C1* L_11 = ___deserializer0;
-		NullCheck(L_11);
-		RuntimeObject* L_12;
-		L_12 = BinaryDeserializer_Deserialize_mC0CC959618835E8E7A422B13502267F998949449(L_11, NULL);
-		V_4 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_12, il2cpp_rgctx_data(method->klass->rgctx_data, 6)))));
-		// result[i] = item;
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_13 = V_2;
-		int32_t L_14 = V_3;
-		int32_t L_15 = V_4;
-		NullCheck(L_13);
-		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(L_14), (int32_t)L_15);
-		// for (int i = 0; i < length; i++)
-		int32_t L_16 = V_3;
-		V_3 = ((int32_t)il2cpp_codegen_add(L_16, 1));
-	}
-
-IL_0049:
-	{
-		// for (int i = 0; i < length; i++)
-		int32_t L_17 = V_3;
-		int32_t L_18 = V_1;
-		if ((((int32_t)L_17) < ((int32_t)L_18)))
-		{
-			goto IL_002f;
-		}
-	}
-	{
-		// return result;
-		Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* L_19 = V_2;
 		return L_19;
 	}
 }
