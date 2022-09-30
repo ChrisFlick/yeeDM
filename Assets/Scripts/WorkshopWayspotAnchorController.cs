@@ -15,6 +15,11 @@ using UnityEngine.UI;
 
 public class WorkshopWayspotAnchorController : MonoBehaviour
 {
+
+    public GameObject statusObj;
+    public GameObject logObj;
+
+
     /*
      * Global variables
      * These sets of variables are used either to display content on the screen,
@@ -145,6 +150,8 @@ public class WorkshopWayspotAnchorController : MonoBehaviour
          Matrix4x4 poseData = Matrix4x4.TRS(position, rotation, _objectPrefab.transform.localScale);
          PlaceAnchor(poseData);
             hasBeenPlaced = true;
+            statusObj.SetActive(false);
+            logObj.SetActive(false);
 
         }
 
