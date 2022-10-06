@@ -5122,6 +5122,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!95 &2142794158064249496
 Animator:
   serializedVersion: 4
@@ -5240,6 +5245,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &1311788235532615623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5338,6 +5348,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &1544661610358672480
 GameObject:
   m_ObjectHideFlags: 0
@@ -10884,6 +10899,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 1
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &3550057955137135918
 GameObject:
   m_ObjectHideFlags: 0
@@ -10982,6 +11002,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &3766431859625649659
 GameObject:
   m_ObjectHideFlags: 0
@@ -11263,6 +11288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!95 &7385896845413906785
 Animator:
   serializedVersion: 4
@@ -11380,6 +11410,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &4709915798919705263
 GameObject:
   m_ObjectHideFlags: 0
@@ -13200,6 +13235,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &5061090973276623971
 GameObject:
   m_ObjectHideFlags: 0
@@ -13905,6 +13945,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &6619329475076384690
 GameObject:
   m_ObjectHideFlags: 0
@@ -14039,6 +14084,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!95 &6979873757702865583
 Animator:
   serializedVersion: 4
@@ -14850,6 +14900,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5c3a972616743d3a0af6d0449a9419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPhoneInterface: 0
+  isAttachedToPhone: 0
+  initialLocation: {x: 0, y: 0, z: 0}
+  target: {fileID: 0}
+  smoothTime: 0.3
 --- !u!1 &8701270476698844832
 GameObject:
   m_ObjectHideFlags: 0
